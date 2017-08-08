@@ -52,7 +52,6 @@ Returns:	 int[]
 
 Method signature: int[] evaluate(String drawing, String[] picks)
 
-(be sure your method is public)
     
 CONSTRAINTS:
 - picks contains between 1 and 50 elements, inclusive.
