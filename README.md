@@ -1,4 +1,4 @@
-#Abstract
+#Abstract:
 AustrianLotto is a program designed to solve Austrian Lotto "6 aus 45" problem. In the Austrian Lotto "6 aus 45" (6 out of 45), 
 six distinct numbers between 1 and 45, inclusive, are selected as the winning numbers in a drawing. Prior to the drawing, 
 lotto players pick six distinct numbers from the same range. The number of matches between their numbers and the winning numbers 
