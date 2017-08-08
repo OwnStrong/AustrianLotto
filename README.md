@@ -1,29 +1,29 @@
-#Abstract:
+ABSTRACT:
 AustrianLotto is a program designed to solve Austrian Lotto "6 aus 45" problem. In the Austrian Lotto "6 aus 45" (6 out of 45), 
 six distinct numbers between 1 and 45, inclusive, are selected as the winning numbers in a drawing. Prior to the drawing, 
 lotto players pick six distinct numbers from the same range. The number of matches between their numbers and the winning numbers 
 determines the prize that they win.
 
-Requirements
+REQUIREMENTS:
 Programming Language: Java Version 1.8
 Framework: Maven
 Libraries: For normal execution, no external library required
 Testing: For testing, “junit” framework was used
 
-Design
+DESIGN:
 The program contains four classes, two for normal execution (AustrianLotto, AustrianLottoDriver) and two for testing (AustrianLottoTest,
 AustrianLottoTestMain). In normal execution, “AustrianLotto” provides “evaluate” method which is the main method to solve the scenario 
 problem. “AustrianLottoDriver” class, is a driver class that execute the program. For testing, “junit” framework was used. 
 “AustrianLottoTest” class contains different testing scenarios(methods). “AustrianLottoTestMain” class is a driver class that run and 
 demonstrate the testing results.  
 
-Instruction
+INSTRUCTION:
 AustrianLotto program was developed using Maven framework (Netbeans Project). When running AustrianLottoDriver class, the program will 
 automatically generate the game’s draw. It than promote user to press any key to start the program or enter “Exit” to terminate the 
 program. It than ask user to enter pick input. By default, user input is disabled and program automatically select the picks (Random
 generator). The program eventually will print out the result to user.
 
-Problem Statement
+PROBLEM STATEMENT:
 (Gathered from https://community.topcoder.com/stat?c=problem_statement&pm=1934 on 18/07/2017)
 In the Austrian Lotto "6 aus 45" (6 out of 45), six distinct numbers between 1 and 45, inclusive, are selected as the winning numbers 
 in a drawing. Prior to the drawing, lotto players pick six distinct numbers from the same range. The number of matches between their 
@@ -35,7 +35,7 @@ of picks in which there are no matches between the gambler's numbers and the dra
 of picks in which there are 1 to 6 matches, respectively. drawing and each element of picks contains exactly 6 distinct integers between
 1 and 45, inclusive, each separated by a single space, e.g. "3 12 13 17 32 45" (quotes for clarity).
 
-Definition
+DEFINITION:
 Class:	 AustrianLotto
 Method: 	 evaluate
 Parameters: String, String[]
@@ -43,13 +43,13 @@ Returns:	 int[]
 Method signature: int[] evaluate(String drawing, String[] picks)
 (be sure your method is public)
     
-Constraints
+CONSTRAINTS:
 - picks contains between 1 and 50 elements, inclusive.
 - drawing and each element of picks contains exactly 6 distinct integers between 1 and 45, inclusive, each separated by exactly one 
 single space, e.g. "3 12 13 17 32 45" (quotes for clarity). Integers have no leading zeros.
 - drawing and each element of picks contains between 11 and 17 characters, inclusive, and no leading or trailing spaces.
  
-Examples 
+EXAMPLES:
 0)
 "3 11 18 23 37 45"
 {"4 7 14 30 33 35", "1 11 12 25 37 38", "11 18 19 20 21 22"}
