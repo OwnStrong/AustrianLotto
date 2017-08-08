@@ -43,10 +43,15 @@ of picks in which there are 1 to 6 matches, respectively. drawing and each eleme
 DEFINITION:
 
 Class:	 AustrianLotto
+
 Method: 	 evaluate
+
 Parameters: String, String[]
+
 Returns:	 int[]
+
 Method signature: int[] evaluate(String drawing, String[] picks)
+
 (be sure your method is public)
     
 CONSTRAINTS:
